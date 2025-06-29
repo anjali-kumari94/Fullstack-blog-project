@@ -45,7 +45,7 @@ app.get("/", (req, res) => {
   });
 });
 //routes
-app.use("/auth", userRoutes);
+app.use("/auth", authRoutes);
 app.use("/posts", postRoutes);
 app.use("/", commentRoutes);
 app.use("/user", userRoutes);
