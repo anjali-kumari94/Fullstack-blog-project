@@ -12,7 +12,7 @@ const postRoutes = require("./routes/postRoutes");
 const errorHandler = require("./middlewares/errorHandler");
 const commentRoutes = require("./routes/commentRoutes");
 const authRoutes = require("./routes/authRoutes");
-const userRoutes = require("./routes/userRoutes");git commit -m "Update: modified app.js"
+const userRoutes = require("./routes/userRoutes");
 
 
 //Port
