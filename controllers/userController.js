@@ -1,5 +1,5 @@
 const asyncHandler = require("express-async-handler");
-const User = require("../models/User");
+const User = require("../models/user");
 const Post = require("../models/Post");
 const File = require("../models/File");
 const cloudinary = require("../config/cloudinary");
